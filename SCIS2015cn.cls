@@ -190,22 +190,22 @@
 
 \renewcommand\maketitle{
     \begingroup
-    %Ê×Ò³Ò³Ã¼
+    %é¦–é¡µé¡µçœ‰
     \vspace*{-15mm}\noindent
     \parbox[c]{120mm}{
         {\small\songti\bahao
-            ÖĞ¹ú¿ÆÑ§\,: ĞÅÏ¢¿ÆÑ§\hspace{5mm}ÔÚÉóÎÄÕÂ}
+            ä¸­å›½ç§‘å­¦\,: ä¿¡æ¯ç§‘å­¦\hspace{5mm}åœ¨å®¡æ–‡ç« }
         \vspace{1.5truemm} 
         \hrule depth0pt height0.25truemm width 160 truemm
         \vspace{1.5truemm} 
         {\sf\zihao{-5}}
     }\hspace{-2mm}
     %\parbox[c]{38mm}{\hfill}
-    %Ê×Ò³Ò³½Å
+    %é¦–é¡µé¡µè„š
     \begin{picture}(0,0)
         \put(-451,-663){\fcolorbox[rgb]{0,0,0}{0.75,0.75,0.75}
-        {\parbox[t]{144truemm{\bf\scriptsize ÒıÓÃ¸ñÊ½:\ }}
-        {\scriptsize \@AuthorCitation.~\@titlecitation.~ÖĞ¹ú¿ÆÑ§: ĞÅÏ¢¿ÆÑ§,
+        {\parbox[t]{144truemm{\bf\scriptsize å¼•ç”¨æ ¼å¼:\ }}
+        {\scriptsize \@AuthorCitation.~\@titlecitation.~ä¸­å›½ç§‘å­¦: ä¿¡æ¯ç§‘å­¦,
         ~\@Year,~\@Vol:~\@BeginPage--\@EndPage,~doi:~\@DOI}}}
     \end{picture}
     \endgroup
@@ -230,13 +230,13 @@
   \begingroup\noindent
     \vspace{10truemm}
     \begin{flushleft}
-        %±êÌâ
+        %æ ‡é¢˜
         \renewcommand{\baselinestretch}{0.9}
         \@title
     \end{flushleft}
     \vskip 4 true mm
     \begin{flushleft}
-        %×÷Õß
+        %ä½œè€…
         \renewcommand{\baselinestretch}{0.9}
         {\rmfamily\Large\kaishu\zihao{4}
             \begin{tabular}[t]{@{}l@{}}\@author\end{tabular}}
@@ -245,15 +245,15 @@
     \begin{flushleft}
         \renewcommand{\baselinestretch}{1.35}
         \rmfamily\footnotesize\songti\zihao{6}
-        %µ¥Î»
+        %å•ä½
         \@address\\
         %email
         \ifx \@onlyoneauthor \@empty
             E-mail:~\@authoremaillist
         \else
-            *~Í¨ĞÅ×÷Õß.~E-mail:~\@authoremaillist
+            *~é€šä¿¡ä½œè€….~E-mail:~\@authoremaillist
         \fi
-        %ÆäËûĞÅÏ¢
+        %å…¶ä»–ä¿¡æ¯
         \ifx \@comment \@empty
         \else
             \\ \@comment
@@ -263,13 +263,13 @@
     \begin{flushleft}
         \renewcommand{\baselinestretch}{1.2}
         \rmfamily\footnotesize\songti\zihao{6}
-        %ÈÕÆÚ
-        ÊÕ¸åÈÕÆÚ:~\@ReceiveDate;\ \ ½ÓÊÜÈÕÆÚ:~\@AcceptDate
+        %æ—¥æœŸ
+        æ”¶ç¨¿æ—¥æœŸ:~\@ReceiveDate;\ \ æ¥å—æ—¥æœŸ:~\@AcceptDate
         \ifx \@OnlineDate \@empty
         \else
-            ;\ \ ÍøÂç³ö°æÈÕÆÚ:~\@OnlineDate
+            ;\ \ ç½‘ç»œå‡ºç‰ˆæ—¥æœŸ:~\@OnlineDate
         \fi
-        %×ÊÖú
+        %èµ„åŠ©
         \ifx \@Foundation \@empty
         \else
             \\ \@Foundation
@@ -285,15 +285,15 @@
     \baselineskip 12pt
     \noindent
     \vspace{5mm}\\
-    {%Ó¢ÎÄ±êÌâ
+    {%è‹±æ–‡æ ‡é¢˜
         \bfseries\xiaosanhao\@entitle}
     \vspace{5mm}\\
-    {%Ó¢ÎÄ×÷Õß
+    {%è‹±æ–‡ä½œè€…
         \renewcommand{\baselinestretch}{0.9}
         \normalsize
         \begin{tabular}[t]{@{}l@{}}\@enauthor\end{tabular}}
     \vspace{5mm}\\
-    {%Ó¢ÎÄµ¥Î»
+    {%è‹±æ–‡å•ä½
         \renewcommand{\baselinestretch}{1.09}
         \bahao\@enaddress\\
         %email
@@ -302,13 +302,13 @@
         \else
             *E-mail:~\@authoremaillist
         \fi
-        %ÆäËûĞÅÏ¢
+        %å…¶ä»–ä¿¡æ¯
         \ifx \@encomment \@empty
         \else
             \\ \@encomment
         \fi}
     \vspace{5mm}\\
-    {%Ó¢ÎÄÕªÒª¹Ø¼ü´Ê
+    {%è‹±æ–‡æ‘˜è¦å…³é”®è¯
         \bahao\noindent
         \textbf{Abstract}\quad\@enabstract
         \vspace{5mm}\\
@@ -380,7 +380,7 @@
     \vskip2.3mm\noindent\hspace*{-2.8mm}
     \begin{tabular}{p{0.98\textwidth}!{\color[gray]{0.4}}}
         \zhaiyao
-        {\heiti ÕªÒª\quad\,\,}\ignorespaces\fangsong#1
+        {\heiti æ‘˜è¦\quad\,\,}\ignorespaces\fangsong#1
     \end{tabular}
 }
 
@@ -388,7 +388,7 @@
     \vskip2.3mm\noindent\hspace*{-3mm}
     \begin{tabular}{p{0.98\textwidth}!{\color[gray]{0.4}}}
         \zhaiyao
-        {\heiti ¹Ø¼ü´Ê\quad\,\,}\ignorespaces\fangsong#1
+        {\heiti å…³é”®è¯\quad\,\,}\ignorespaces\fangsong#1
     \end{tabular}
     \par \vspace*{-1.25mm}\noindent
     \textcolor[rgb]{0.4,0.4,0.4}
@@ -398,14 +398,14 @@
 \newcommand*\Acknowledgements[1]{%
     \vskip 5mm
     \baselineskip 16pt
-    {\textbf{ÖÂĞ»}\quad{\fangsong#1}}\par
+    {\textbf{è‡´è°¢}\quad{\fangsong#1}}\par
 }
 
 \newcommand*\Supplements[1]{%
     \vskip 5mm
     \baselineskip 16pt
-    {\textbf{²¹³ä²ÄÁÏ}\quad{\fangsong#1~±¾ÎÄµÄ²¹³ä²ÄÁÏ¼ûÍøÂç°æinfo.scichina.com. 
-    ²¹³ä²ÄÁÏÎª×÷ÕßÌá¹©µÄÔ­Ê¼Êı¾İ, ×÷Õß¶ÔÆäÑ§ÊõÖÊÁ¿ºÍÄÚÈİ¸ºÔğ.}}\par
+    {\textbf{è¡¥å……ææ–™}\quad{\fangsong#1~æœ¬æ–‡çš„è¡¥å……ææ–™è§ç½‘ç»œç‰ˆinfo.scichina.com. 
+    è¡¥å……ææ–™ä¸ºä½œè€…æä¾›çš„åŸå§‹æ•°æ®, ä½œè€…å¯¹å…¶å­¦æœ¯è´¨é‡å’Œå†…å®¹è´Ÿè´£.}}\par
 }
 
 %-------------------------- Sections ----------------------------------
@@ -462,7 +462,7 @@
     \setcounter{table}{0}
     \setcounter{figure}{0}
     \setcounter{algorithm}{0}
-    \def\sectionname{²¹³ä²ÄÁÏ(\thesection)}
+    \def\sectionname{è¡¥å……ææ–™(\thesection)}
     \def\thesection{\Roman{section}}
     \renewcommand{\theequation}{S\arabic{equation}}
     \renewcommand{\thefigure}{S\arabic{figure}}
@@ -482,7 +482,7 @@
 
 \renewenvironment{thebibliography}[1]{
     \vspace{6mm}\noindent
-    \parbox[c]{20mm}{\heiti\zihao{5}²Î¿¼ÎÄÏ×}
+    \parbox[c]{20mm}{\heiti\zihao{5}å‚è€ƒæ–‡çŒ®}
     \hspace{-6mm}
     \rule[0.01\baselineskip]{0.9\textwidth}{0.5pt}
     \vskip0.1in \baselineskip 11.5pt \vspace{-4mm}
@@ -506,11 +506,11 @@
 
 %------------------ Figures, tables, algorithms -----------------------
 
-\setlength{\floatsep}{16pt plus 1pt minus 1pt}%Ò³Ãæ¶¥²¿/µ×²¿µÄ¸¡¶¯¶ÔÏó¼äµÄ´¹Ö±¾àÀë, È±Ê¡Îª12pt plus 2pt minus 2pt
-\setlength{\textfloatsep}{16pt plus 1pt minus 1pt}%Ò³¶¥²¿/µ×²¿µÄ¸¡¶¯¶ÔÏóÓëÎÄ±¾¼ä´¹Ö±¾àÀë, È±Ê¡20pt plus 2pt minus 4pt
-\setlength{\intextsep}{12pt plus 3pt minus 2pt}%Ò³ÖĞ¸¡¶¯¶ÔÏóÓëÉÏÏÂ·½ÎÄ±¾¼ä´¹Ö±¾àÀë, È±Ê¡12pt plus 2pt minus 2pt
-\setlength{\belowrulesep}{0pt}%ºáÏßºÍÆäÏÂÎÄ×ÖµÄ¼ä¾à
-\setlength{\aboverulesep}{0pt}%ºáÏßºÍÆäÉÏÎÄ×ÖµÄ¼ä¾à
+\setlength{\floatsep}{16pt plus 1pt minus 1pt}%é¡µé¢é¡¶éƒ¨/åº•éƒ¨çš„æµ®åŠ¨å¯¹è±¡é—´çš„å‚ç›´è·ç¦», ç¼ºçœä¸º12pt plus 2pt minus 2pt
+\setlength{\textfloatsep}{16pt plus 1pt minus 1pt}%é¡µé¡¶éƒ¨/åº•éƒ¨çš„æµ®åŠ¨å¯¹è±¡ä¸æ–‡æœ¬é—´å‚ç›´è·ç¦», ç¼ºçœ20pt plus 2pt minus 4pt
+\setlength{\intextsep}{12pt plus 3pt minus 2pt}%é¡µä¸­æµ®åŠ¨å¯¹è±¡ä¸ä¸Šä¸‹æ–¹æ–‡æœ¬é—´å‚ç›´è·ç¦», ç¼ºçœ12pt plus 2pt minus 2pt
+\setlength{\belowrulesep}{0pt}%æ¨ªçº¿å’Œå…¶ä¸‹æ–‡å­—çš„é—´è·
+\setlength{\aboverulesep}{0pt}%æ¨ªçº¿å’Œå…¶ä¸Šæ–‡å­—çš„é—´è·
 \setlength{\doublerulesep}{0.4pt}
 \newcommand\Times{\fontfamily{ptm}\selectfont}
 \newcommand{\picsize}{\fontsize{8pt}{0.4\baselineskip}\selectfont}
@@ -519,9 +519,9 @@
 \captionsetup[table]{aboveskip=1mm}
 \captionsetup[figure]{aboveskip=3mm}
 \captionsetup[algorithm]{font=footnotesize}
-\floatname{algorithm}{Ëã·¨}
+\floatname{algorithm}{ç®—æ³•}
 
-\newcommand*{\cnfigurename}{Í¼}
+\newcommand*{\cnfigurename}{å›¾}
 \newcommand*{\enfigurename}{Figure}
 \newcommand*{\cnenfigcaption}[2]{%
     \def\figurename{\cnfigurename}
@@ -532,7 +532,7 @@
     \caption{\baselineskip 10pt #2}
 }
 
-\newcommand*{\cntablename}{±í}
+\newcommand*{\cntablename}{è¡¨}
 \newcommand*{\entablename}{Table}
 \newcommand*{\cnentablecaption}[2]{%
     \def\tablename{\cntablename}
@@ -565,9 +565,9 @@
 \setlength{\arraycolsep}{2.0pt}
 
 %----------------------------- Theorems -------------------------------
-\def\proof{{\heiti Ö¤Ã÷}\quad}
-\def\th#1{{\bf\heiti\zihao{5} #1}\quad} %Í¨ÓÃĞÎÊ½
-\renewcommand{\qedsymbol}{} %È¥µôĞ¡·½¿ò
+\def\proof{{\heiti è¯æ˜}\quad}
+\def\th#1{{\bf\heiti\zihao{5} #1}\quad} %é€šç”¨å½¢å¼
+\renewcommand{\qedsymbol}{} %å»æ‰å°æ–¹æ¡†
 \newtheoremstyle{newdefinition}%
     {2pt}% Space above
     {2pt}% Space below
@@ -578,10 +578,10 @@
     {10pt plus 1pt minus 1pt}% Space after theorem head
     {}% Theorem head spec (can be left empty, meaning `normal')
 \theoremstyle{newdefinition}%
-\newtheorem{definition}{¶¨Òå}
-\newtheorem{theorem}{¶¨Àí}
-\newtheorem{lemma}{ÒıÀí}
-\newtheorem{corollary}{ÍÆÂÛ}
+\newtheorem{definition}{å®šä¹‰}
+\newtheorem{theorem}{å®šç†}
+\newtheorem{lemma}{å¼•ç†}
+\newtheorem{corollary}{æ¨è®º}
 
 \iffalse
 \makeatletter
